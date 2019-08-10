@@ -3,7 +3,7 @@ package chapter2;
 import java.util.Arrays;
 import java.util.Scanner;
 
-//把一个数组最开始的若干个元素搬到数组的末尾，称为数组的旋转。
+//把一个数组最开始的若干个元素搬到数组的末尾，称为数组的旋转
 //输入一个递增排序的一个旋转，输出旋转数组的最小元素
 public class No11MinNumberInRotatedArray {
     public static void main(String[] args){

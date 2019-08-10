@@ -5,6 +5,8 @@ import java.util.Scanner;
 //判断一个矩阵中是否包含存在一条包含某字符串所有字符的路径
 //回溯类型的题，一般用递归做，
 //遍历初始位置，然后逐个判断下一步
+
+//测试输入
 //abcesfcsadee
 //3 4 4 bcced
 public class No12StringPathInMatrix {
