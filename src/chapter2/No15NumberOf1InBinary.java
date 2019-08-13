@@ -20,11 +20,12 @@ public class No15NumberOf1InBinary {
 
     public int baseMethod(int m){
         int count = 0;
-        
-        while(m != 0){
-            if((m & 1) != 0){
+        int i=1;
+        while(i != 0){
+            if((m & i) != 0){
                 count++;
             }
+            i <<= 1;
         } 
         return count;
     }
