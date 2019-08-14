@@ -2,6 +2,7 @@ package chapter3;
 
 import java.util.Scanner;
 
+//求base的exponent次方，不得使用库函数，不需要考虑大数问题
 public class No16Power {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
