@@ -12,7 +12,8 @@ public class ListNode {
         // TODO Auto-generated constructor stub
         this.val = val;
     }
-    
+
+    @Override
     public String toString(){
         System.out.println(val);
         while(next != null){
