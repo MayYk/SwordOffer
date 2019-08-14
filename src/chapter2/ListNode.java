@@ -1,8 +1,8 @@
 package chapter2;
 
 public class ListNode {
-    int val;
-    ListNode next = null;
+    public int val;
+    public ListNode next = null;
     
     public ListNode(){
         
@@ -12,4 +12,14 @@ public class ListNode {
         // TODO Auto-generated constructor stub
         this.val = val;
     }
+    
+    public String toString(){
+        System.out.println(val);
+        while(next != null){
+            System.out.println(next.val);
+            next = next.next;
+        }
+        return "";
+    }
+    
 }
