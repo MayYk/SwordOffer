@@ -21,14 +21,12 @@ public class No1801DeleteNodeInList {
             ln.next = new ListNode(scanner.nextInt());
             ln = ln.next;
         }
-        
 
         int rm = 1;
         ListNode toDel = head;
         while (--rm >= 0) {
             toDel = toDel.next;
         }
-        
         scanner.close();
         
         No1801DeleteNodeInList no18 = new No1801DeleteNodeInList();
@@ -36,7 +34,7 @@ public class No1801DeleteNodeInList {
         head.toString();
     }
     
-    public void delNode(ListNode head, ListNode toDel){
+    private void delNode(ListNode head, ListNode toDel){
         if (toDel.next != null) {
             toDel.val = toDel.next.val;
             toDel.next = toDel.next.next;
