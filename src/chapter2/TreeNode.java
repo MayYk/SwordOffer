@@ -1,10 +1,10 @@
 package chapter2;
 
 public class TreeNode {
-    int val;
-    TreeNode left = null;
-    TreeNode right = null;
-    TreeNode father = null;
+    public int val;
+    public TreeNode left = null;
+    public TreeNode right = null;
+    public TreeNode father = null;
     public TreeNode(){
         
     }

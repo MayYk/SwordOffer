@@ -12,7 +12,7 @@ import java.util.Queue;
 
 //不分行从上到下打印二叉树
 //    主要考察了树和队列
-public class No32PrintTreeFromTopToBottom {
+public class No3201PrintTreeFromTopToBottom {
     public static void main(String[] args) {
         TreeNode first8 = new TreeNode(8);
         TreeNode first6 = new TreeNode(6);
@@ -30,17 +30,19 @@ public class No32PrintTreeFromTopToBottom {
 
         first10.left = first9;
         first10.right = first11;
-        No32PrintTreeFromTopToBottom no32PrintTreeFromTopToBottom = new No32PrintTreeFromTopToBottom();
+        No3201PrintTreeFromTopToBottom no32PrintTreeFromTopToBottom = new No3201PrintTreeFromTopToBottom();
         no32PrintTreeFromTopToBottom.printTree(first8);
-
     }
 
+//    将树的节点加入队列，输出树直到队列为空
     private void printTree(TreeNode head){
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(head);
+
         while (queue.size() != 0){
             head = queue.poll();
             System.out.println(head.val);
+
             if (head.left != null){
                 queue.add(head.left);
             }
