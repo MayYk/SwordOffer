@@ -14,24 +14,24 @@ import java.util.Queue;
 //    主要考察了树和队列
 public class No3201PrintTreeFromTopToBottom {
     public static void main(String[] args) {
-        TreeNode first8 = new TreeNode(8);
-        TreeNode first6 = new TreeNode(6);
-        TreeNode first5 = new TreeNode(5);
-        TreeNode first7 = new TreeNode(7);
-        TreeNode first10 = new TreeNode(10);
-        TreeNode first9 = new TreeNode(9);
-        TreeNode first11 = new TreeNode(11);
+        TreeNode node8 = new TreeNode(8);
+        TreeNode node6 = new TreeNode(6);
+        TreeNode node5 = new TreeNode(5);
+        TreeNode node7 = new TreeNode(7);
+        TreeNode node10 = new TreeNode(10);
+        TreeNode node9 = new TreeNode(9);
+        TreeNode node11 = new TreeNode(11);
 
-        first8.left = first6;
-        first8.right = first10;
+        node8.left = node6;
+        node8.right = node10;
 
-        first6.left = first5;
-        first6.right = first7;
+        node6.left = node5;
+        node6.right = node7;
 
-        first10.left = first9;
-        first10.right = first11;
+        node10.left = node9;
+        node10.right = node11;
         No3201PrintTreeFromTopToBottom no32PrintTreeFromTopToBottom = new No3201PrintTreeFromTopToBottom();
-        no32PrintTreeFromTopToBottom.printTree(first8);
+        no32PrintTreeFromTopToBottom.printTree(node8);
     }
 
 //    将树的节点加入队列，输出树直到队列为空
