@@ -63,8 +63,7 @@ public class No3802EightQueen {
                     int cur2 = Integer.valueOf(string.substring(n,n+1));
                     boolean isDia = ((m-n) == (cur1-cur2));
                     boolean isDia2 = ((n-m) == (cur1-cur2));
-                    boolean idLine = (n-m==0) && (cur1==cur2);
-                    if ( isDia ||  isDia2 || idLine){
+                    if ( isDia ||  isDia2 ){
                         flag = false;
                         break;
                     }
