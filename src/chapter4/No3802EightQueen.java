@@ -9,6 +9,7 @@ import java.util.Set;
  * Description: SwordOffer
  * time: 2019-10-09 15:34
  */
+//八皇后问题
 public class No3802EightQueen {
     public static void main(String[] args) {
         No3802EightQueen no3802EightQueen = new No3802EightQueen();
