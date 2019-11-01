@@ -14,8 +14,10 @@ public class No46TranslateNumbersToStrings {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
-
         scanner.close();
+
+        No46TranslateNumbersToStrings no46TranslateNumbersToStrings = new No46TranslateNumbersToStrings();
+        System.out.println(no46TranslateNumbersToStrings.countMaybe(string));
     }
 
     private int countMaybe(String string){
@@ -25,7 +27,7 @@ public class No46TranslateNumbersToStrings {
         int[] res = new int[n];
         res[0] = 1;
         res[1] = isInRange(chars[0], chars[1])? 2:1;
-        for (int i=0; i<n; i++){
+        for (int i=2; i<n; i++){
             res[i] = res[i-1]+(isInRange(chars[i-1], chars[i])? res[i-2]:0);
         }
         return res[n-1];
