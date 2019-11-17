@@ -6,6 +6,7 @@ import java.util.Scanner;
  * Description: SwordOffer
  * time: 2019-11-17 11:39
  */
+//最长没有重复字符串
 public class No48LongestSubstringWithoutDup {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
