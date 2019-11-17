@@ -1,24 +1,20 @@
 package chapter6;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import jdk.internal.org.objectweb.asm.tree.IntInsnNode;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.UnknownFormatConversionException;
 
 /**
  * Description: SwordOffer
  * time: 2019-11-17 16:52
  */
 //第一个只出现一次的字符
-public class No5101FirstNotRepeatingChar {
+public class No5001FirstNotRepeatingChar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
-        No5101FirstNotRepeatingChar no5101FirstNotRepeatingChar = new No5101FirstNotRepeatingChar();
-        System.out.println(no5101FirstNotRepeatingChar.getFirstNotRepeat(s));
+        No5001FirstNotRepeatingChar no5001FirstNotRepeatingChar = new No5001FirstNotRepeatingChar();
+        System.out.println(no5001FirstNotRepeatingChar.getFirstNotRepeat(s));
 
         scanner.close();
     }
