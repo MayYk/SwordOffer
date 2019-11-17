@@ -8,6 +8,7 @@ import java.util.Scanner;
  * Description: SwordOffer
  * time: 2019-11-17 16:28
  */
+//寻找丑数
 public class No49UglyNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
