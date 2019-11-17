@@ -10,7 +10,8 @@ public class No48LongestSubstringWithoutDup {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
-
+        No48LongestSubstringWithoutDup no48LongestSubstringWithoutDup = new No48LongestSubstringWithoutDup();
+        System.out.println(no48LongestSubstringWithoutDup.getLongestSubstring(s));
         scanner.close();
     }
 
