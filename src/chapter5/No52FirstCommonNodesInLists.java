@@ -1,7 +1,6 @@
-package chapter6;
+package chapter5;
 
 import chapter2.ListNode;
-import javafx.scene.input.Mnemonic;
 
 import java.util.Scanner;
 import java.util.Stack;
