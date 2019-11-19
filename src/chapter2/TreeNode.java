@@ -12,5 +12,9 @@ public class TreeNode {
     public TreeNode(int val){
         this.val = val;
     }
-    
+
+    @Override
+    public String toString(){
+        return val+"";
+    }
 }
