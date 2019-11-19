@@ -45,4 +45,5 @@ public class No5302MissingNumber {
         }
         return start == n ? n : -1;
     }
+
 }
