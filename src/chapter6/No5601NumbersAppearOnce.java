@@ -1,8 +1,5 @@
 package chapter6;
 
-import com.sun.xml.internal.txw2.output.IndentingXMLFilter;
-
-import java.net.Inet4Address;
 import java.util.Scanner;
 
 /**
